@@ -30,6 +30,7 @@ function App() {
           </div>
         </div>
       </div>
+      <a href="https://github.com/mmccurdy00/weather-app-react"><i class="fa-brands fa-square-github fa-xl"></i></a>
     </div>
   );
 }
