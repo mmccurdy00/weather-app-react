@@ -1,0 +1,37 @@
+.App {
+  max-width: 300px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  border: solid 1px gray;
+  color: #142d4c;
+  background: linear-gradient(#ececec, #385170);
+  font-family: "Young Serif", serif;
+}
+form {
+  padding: 20px;
+}
+h1 {
+  padding-top: 25px;
+}
+h2 {
+  padding-bottom: 25px;
+}
+img {
+  width: 150px;
+  height: 150px;
+}
+.break-line {
+  border-right: solid 1px #385170;
+}
+.col {
+  padding: 10px;
+  font-size: 14px;
+}
+.temp {
+  padding-bottom: 20px;
+}
+a {
+  text-decoration: none;
+  color: #142d4c; 
+}
