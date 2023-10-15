@@ -6,12 +6,6 @@ import WeatherTemperature from "./WeatherTemperature";
 function WeatherInfo(props) {
   return (
     <div className="WeatherInfo">
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" aria-label="Search" />
-        <button class="btn btn-outline-dark" data-bs-theme="dark" type="submit">
-          ?
-        </button>
-      </form>
       <h1>{props.data.city}</h1>
       <FormattedDate date={props.data.date} />
       <WeatherIcon code={props.data.icon} size={52} />
